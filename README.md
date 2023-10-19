@@ -20,7 +20,7 @@ Inside each folder you'll find the trained model for that approach and two video
 Each of the _.py_ files has been used for the namesake approach (i.e. breakout.py has been used to train the breakout model that can be found in the folder of the same name) 
 
 # How to use the code
-Install the requirements and use the following functions in the _main_ of one of the scripts:
+Install the requirements (Pytorch is stictly necessary) and use the following functions in the _main_ of one of the scripts:
 + _train()_ to train a new model using the DQN. It could take several hours (we're talking days if you don't have a good GPU)
 + _test(game, model)_ to visually simulate a game of Pong or Breakout. That can be picked using the function parameters
 + _performance(game, model)_ to get just the results of the simulation, with no visualization
