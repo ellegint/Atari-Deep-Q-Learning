@@ -10,10 +10,23 @@ Of course one of those games had to be simulated rotated to be similar to the ot
 # The first (wrong) approach
 That said, the first thing I tried to do was creating a model that could play well one of those games and then test its performances in both of them.
 And that's what I did: I created the first model by training the network to play Pong and then test it on Breakout. You'll find the created model and the demos of this experiment inside the _Pong_ folder. The model can easily defeat the opponent playing Pong but it performs poorly on Breakout, as it could not even play properly. \
+
+https://github.com/ellegint/Atari-Deep-Q-Learning/assets/81372229/d6d49ad8-897f-4a93-a1e8-ae101646adbd
+
+https://github.com/ellegint/Atari-Deep-Q-Learning/assets/81372229/93c5acbb-0ae1-406d-ad88-0ac44b2dcfd0
+
 Then, I did the same with Breakout and obtained the same results (perfroms well on trained game, poorly on the other one). Also I found out that Breakout is much harder to learn for the model and for that reason I discovered the multienvironments, an instrument that could be used to create and play more simulations simultaneously.
+
+https://github.com/ellegint/Atari-Deep-Q-Learning/assets/81372229/8a8a827e-69ea-4516-890a-b273bc4f8cbb
+
+https://github.com/ellegint/Atari-Deep-Q-Learning/assets/81372229/9b8655f1-4e9d-43fd-aa53-92c6d6a0b7a2
 
 # The final solution
 The best way to make the model learn both of the games was (trivially) to make it play both of them. By using the multienvs I managed to do so and obtained some not-so-bad results, that can be found in the _Mixed_ folder.
+
+https://github.com/ellegint/Atari-Deep-Q-Learning/assets/81372229/d089bdff-4d44-4ec1-b145-b3ece0f42d73
+
+https://github.com/ellegint/Atari-Deep-Q-Learning/assets/81372229/271ec60f-1c3f-40ad-a0ba-2a02c0c57c2a
 
 # Repo Structure
 Inside each folder you'll find the trained model for that approach and two videos showing how the model performs in the games.
